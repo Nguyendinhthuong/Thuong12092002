@@ -103,6 +103,9 @@ nav li a:hover {
 .nav__input {
     display:none;
 }
+.nav__logo {
+    display: none;
+}
 
 .nav__input:checked ~ .nav__overlay {
     display:block;
@@ -236,7 +239,9 @@ nav li a:hover {
         display:block;
         
     }
-    
+    .nav__logo {
+        display: block;
+    }
 }
 
 @keyframes fadeIn {

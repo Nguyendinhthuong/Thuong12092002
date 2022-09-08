@@ -23,11 +23,29 @@
                 
              
             </nav>
-            <div id="toggle">
+            <label for="nav__mobile-input" id="toggle">
                 <i class="fa-solid fa-bars"></i>
+            </label>
+            
+            <input type="checkbox" name="" class="nav__input" id="nav__mobile-input">
+            <label for="nav__mobile-input" class="nav__overlay"></label>
+
+            <div class="nav__mobile">
+                <ul id="nav__mobile-list">
+                    <li><a href="" class="nav__mobile-link">Ghế Massage</a></li>
+                    <li><a href="" class="nav__mobile-link">Xe Đạp</a></li>
+                    <li><a href="" class="nav__mobile-link">Máy chạy bộ</a></li>
+                    <li><a href="" class="nav__mobile-link">Thương Hiệu</a></li>
+                    <li><a href="" class="nav__mobile-link">Giỏ hàng</a></li>
+                </ul>
+                
+             
+                <label for="nav__mobile-input" class="nav__close-btn">
+                    <i class="fa-solid fa-xmark"></i>
+                </label>
             </div>
 
-            <div class="header_logo" id="opmn" >
+            <div class="header_logo" >
                 <img src="https://inkythuatso.com/uploads/thumbnails/800/2021/12/logo-fpt-polytechnic-inkythuatso-09-13-08-21.jpg"
                     alt="" class="header_logo-img">
             </div>
@@ -76,15 +94,6 @@
         </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
-
-    <script>
-        $(document).ready(function() {
-            $('#toggle').click(function() {
-               $('nav').slideToggle();
-            });
-        })
-    </script>
     
 </body>
 
